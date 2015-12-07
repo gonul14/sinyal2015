@@ -1,171 +1,171 @@
-Ölçü 1:
+ï»¿Ã–lÃ§Ã¼ 1:
 Birlik sus,1
 
-Ölçü 2:
+Ã–lÃ§Ã¼ 2:
 mi, 1/4
-Bir dörtlük sus,1/4
+Bir dÃ¶rtlÃ¼k sus,1/4
 sol,1/4
-Bir dörtlük sus,1/4
+Bir dÃ¶rtlÃ¼k sus,1/4
 
-Ölçü 3:
+Ã–lÃ§Ã¼ 3:
 fa,1/4
 sol,1/8
 fa,3/8
-Bir dörtlük sus,1/4
+Bir dÃ¶rtlÃ¼k sus,1/4
 
-Ölçü 4:
-Bir dörtlük sus,1/4
+Ã–lÃ§Ã¼ 4:
+Bir dÃ¶rtlÃ¼k sus,1/4
 fa,1/8
 fa,1/8
 fa,1/4
 fa,1/4
 
-Ölçü 5:
+Ã–lÃ§Ã¼ 5:
 sol,1/4
 la,1/8
 sol,3/8
-Bir dörtlük sus,1/4
+Bir dÃ¶rtlÃ¼k sus,1/4
 
-Ölçü 6:
-Bir dörtlük sus,1/4
+Ã–lÃ§Ã¼ 6:
+Bir dÃ¶rtlÃ¼k sus,1/4
 mi,1/8
 mi,1/8
 mi,1/4
 mi,1/4
 
-Ölçü 7:
+Ã–lÃ§Ã¼ 7:
 fa,1/4
 sol,1/8
 fa,3/8
 mi,1/4
 
-Ölçü 8:
+Ã–lÃ§Ã¼ 8:
 sol:1
 
-Ölçü 9:
+Ã–lÃ§Ã¼ 9:
 Birlik sus,1
 
-Ölçü 10:
+Ã–lÃ§Ã¼ 10:
 mi,1/4
-Bir dörtlük sus,1/4
+Bir dÃ¶rtlÃ¼k sus,1/4
 sol,1/4
-Bir dörtlük sus,1/4
+Bir dÃ¶rtlÃ¼k sus,1/4
 
-Ölçü 11:
+Ã–lÃ§Ã¼ 11:
 fa,1/4
 sol,1/8
 fa,3/8
-Bir dörtlük sus,1/4
+Bir dÃ¶rtlÃ¼k sus,1/4
 
-Ölçü 12:
-Bir dörtlük sus,1/4
+Ã–lÃ§Ã¼ 12:
+Bir dÃ¶rtlÃ¼k sus,1/4
 fa,1/8
 fa,1/8
 fa,1/4
 fa,1/4
 
-Ölçü 13:
+Ã–lÃ§Ã¼ 13:
 sol,1/4
 la,1/8
 sol,3/8
-Bir dörtlük sus,1/4
+Bir dÃ¶rtlÃ¼k sus,1/4
 
-Ölçü 14:
-Bir dörtlük sus,1/4
+Ã–lÃ§Ã¼ 14:
+Bir dÃ¶rtlÃ¼k sus,1/4
 mi,1/8
 mi,1/8
 mi,1/4
 mi,1/4
 
-Ölçü 15:
+Ã–lÃ§Ã¼ 15:
 fa,1/4
 sol,1/8
 fa,3/8
 Re diyez:1/4
 
-Ölçü 16:
+Ã–lÃ§Ã¼ 16:
 mi,1
 
-Ölçü 17:
+Ã–lÃ§Ã¼ 17:
 Birlik sus,1
 
-Ölçü 18:
+Ã–lÃ§Ã¼ 18:
 sol,1/4
 sol,1/4
 sol,1/4
 sol,1/4
 
-Ölçü 19:
+Ã–lÃ§Ã¼ 19:
 fa,1/4
 mi,1/8
 mi,3/8
 si,1/4
 
-Ölçü 20:
+Ã–lÃ§Ã¼ 20:
 la,1/4
 fa,1/8
 fa,1/8
 fa,1/4
 fa,1/4
 
-Ölçü 21:
+Ã–lÃ§Ã¼ 21:
 sol,1/4
 la,1/4
 sol,1/4
 fa,1/8
 sol,1/8
 
-Ölçü 22:
-Bir dörtlük sus,1/4
+Ã–lÃ§Ã¼ 22:
+Bir dÃ¶rtlÃ¼k sus,1/4
 mi,1/8
 mi,1/8
 mi,1/4
 mi,1/4
 
-Ölçü 23:
+Ã–lÃ§Ã¼ 23:
 fa,1/4
 sol,1/8
 fa,3/8
 Re diyez,1/4
 
-Ölçü 24:
+Ã–lÃ§Ã¼ 24:
 mi,1/4
 fa,1/8
 mi,3/8
-Bir dörtlük sus,1/4
+Bir dÃ¶rtlÃ¼k sus,1/4
 
-Ölçü 25:
+Ã–lÃ§Ã¼ 25:
 Birlik sus,1
 
-Ölçü 26:
+Ã–lÃ§Ã¼ 26:
 Birlik sus,1
 
-Ölçü 27:
+Ã–lÃ§Ã¼ 27:
 Birlik sus,1
 
-Ölçü 28:
+Ã–lÃ§Ã¼ 28:
 Birlik sus,1
 
-Ölçü 29:
+Ã–lÃ§Ã¼ 29:
 Birlik sus,1
 
-Ölçü 30:
+Ã–lÃ§Ã¼ 30:
 Birlik sus,1
 
-Ölçü 31:
+Ã–lÃ§Ã¼ 31:
 Birlik sus,1
 
-Ölçü 32:
+Ã–lÃ§Ã¼ 32:
 Birlik sus,1
 
-Ölçü 33:
+Ã–lÃ§Ã¼ 33:
 Birlik sus,1
 
-Ölçü 34:
+Ã–lÃ§Ã¼ 34:
 Birlik sus,1
 
-Ölçü 35:
+Ã–lÃ§Ã¼ 35:
 Birlik sus,1
 
-Ölçü 36:
+Ã–lÃ§Ã¼ 36:
 Birlik sus,1
