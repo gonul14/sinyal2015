@@ -1,0 +1,1 @@
+ff=frek('D',8) %frek fonksiyonunu istediðim nota ve oktava göre çaðýrýyorum.
