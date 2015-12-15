@@ -1,1 +1,1 @@
-ff=frek('D',7)
+ff=frek('E',7)
