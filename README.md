@@ -14,21 +14,7 @@ Proje:Matlab ile Sentezleme
 ** "note_cgr.m" matlab türünde dosyadır.İçinde note fonksiyonunu çağırırım. 
 
 ** "frek.m"  dosyasında notanın frekansını vermiş olduğum girişteki nota ve oktava göre "frek(nota,oktav)" bulan frek fonksiyonunun bulunduğu dosyadır. 
-    -> frek.m dosyasında her nota için bir karakter tanımladım.Buradaki karakterlere göre dizide tanımladım ve fonksiyonda çağırdım.
-
-    do='D'; 
-    dodiyez='d';
-    re='R';
-    mibemol='m';
-    mi='M';
-    fa='F';
-    fadiyez='f';
-    sol='G';
-    soldiyez='g';
-    la='L';
-    sibemol='s';
-    si='S';
-
+    
 ** "frek_cgr.m" matlab türünde dosyadır.İçinde frek fonksiyonunu çağırırım.
 
 ** "README.md" dosyası içinde bulunduğum dosyadır.Proje de yer alan her dosya ile ilgili açıklama yaptığım dosyanın adıdır.
