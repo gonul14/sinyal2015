@@ -1,18 +1,18 @@
 function ff=frek(nota,oktav)  %oluþturduðum fonksiyon nota ve oktava göre argüman alacaklar.
 
-do='D'; %her bir notaya karakter tanýmladým .
-dodiyez='d';
-re='R';
-mibemol='m';
-mi='M';
+do='C'; %her bir notaya karakter tanýmladým .
+dodiyez='c';
+re='D';
+mibemol='E';
+mi='e';
 fa='F';
 fadiyez='f';
 sol='G';
 soldiyez='g';
-la='L';
-sibemol='s';
-si='S';
-notalar=['D' 'd' 'R' 'm' 'M' 'F' 'f' 'G' 'g' 'L' 's' 'S']; %nota için tanýmladýðým karakterleri notalar dizisine atadým.
+la='A';
+sibemol='b';
+si='B';
+notalar=['C' 'c' 'D' 'E' 'e' 'F' 'f' 'G' 'g' 'A' 'b' 'B']; %nota için tanýmladýðým karakterleri notalar dizisine atadým.
 referans=16.35;  %do notasýnýn 0.oktavdaki deðerini referans olarak aldým.
 k=length(notalar); %k deðiþkenine notalar dizisinin uzunluðunu atadým.
 
