@@ -1,1 +1,1 @@
-ff=frek('E',7)
+ff=frek('Fa') %oktav argümaný girilmeden çaðýrdým.4.oktavdaki fa notasýnýn frekansýný dödürmesini beklerim.
