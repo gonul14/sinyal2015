@@ -1,171 +1,100 @@
-﻿Ölçü 1:
-Birlik sus,1
-
-Ölçü 2:
-mi, 1/4
-Bir dörtlük sus,1/4
-sol,1/4
-Bir dörtlük sus,1/4
-
-Ölçü 3:
-fa,1/4
-sol,1/8
-fa,3/8
-Bir dörtlük sus,1/4
-
-Ölçü 4:
-Bir dörtlük sus,1/4
-fa,1/8
-fa,1/8
-fa,1/4
-fa,1/4
-
-Ölçü 5:
-sol,1/4
-la,1/8
-sol,3/8
-Bir dörtlük sus,1/4
-
-Ölçü 6:
-Bir dörtlük sus,1/4
-mi,1/8
-mi,1/8
-mi,1/4
-mi,1/4
-
-Ölçü 7:
-fa,1/4
-sol,1/8
-fa,3/8
-mi,1/4
-
-Ölçü 8:
-sol:1
-
-Ölçü 9:
-Birlik sus,1
-
-Ölçü 10:
-mi,1/4
-Bir dörtlük sus,1/4
-sol,1/4
-Bir dörtlük sus,1/4
-
-Ölçü 11:
-fa,1/4
-sol,1/8
-fa,3/8
-Bir dörtlük sus,1/4
-
-Ölçü 12:
-Bir dörtlük sus,1/4
-fa,1/8
-fa,1/8
-fa,1/4
-fa,1/4
-
-Ölçü 13:
-sol,1/4
-la,1/8
-sol,3/8
-Bir dörtlük sus,1/4
-
-Ölçü 14:
-Bir dörtlük sus,1/4
-mi,1/8
-mi,1/8
-mi,1/4
-mi,1/4
-
-Ölçü 15:
-fa,1/4
-sol,1/8
-fa,3/8
-Re diyez:1/4
-
-Ölçü 16:
-mi,1
-
-Ölçü 17:
-Birlik sus,1
-
-Ölçü 18:
-sol,1/4
-sol,1/4
-sol,1/4
-sol,1/4
-
-Ölçü 19:
-fa,1/4
-mi,1/8
-mi,3/8
-si,1/4
-
-Ölçü 20:
-la,1/4
-fa,1/8
-fa,1/8
-fa,1/4
-fa,1/4
-
-Ölçü 21:
-sol,1/4
-la,1/4
-sol,1/4
-fa,1/8
-sol,1/8
-
-Ölçü 22:
-Bir dörtlük sus,1/4
-mi,1/8
-mi,1/8
-mi,1/4
-mi,1/4
-
-Ölçü 23:
-fa,1/4
-sol,1/8
-fa,3/8
-Re diyez,1/4
-
-Ölçü 24:
-mi,1/4
-fa,1/8
-mi,3/8
-Bir dörtlük sus,1/4
-
-Ölçü 25:
-Birlik sus,1
-
-Ölçü 26:
-Birlik sus,1
-
-Ölçü 27:
-Birlik sus,1
-
-Ölçü 28:
-Birlik sus,1
-
-Ölçü 29:
-Birlik sus,1
-
-Ölçü 30:
-Birlik sus,1
-
-Ölçü 31:
-Birlik sus,1
-
-Ölçü 32:
-Birlik sus,1
-
-Ölçü 33:
-Birlik sus,1
-
-Ölçü 34:
-Birlik sus,1
-
-Ölçü 35:
-Birlik sus,1
-
-Ölçü 36:
-Birlik sus,1
+﻿sus,3,1
+Mi,3,1/4
+sus,3,1/4
+Sol,3,1/4
+sus,3,1/4
+Fa,3,1/4
+Sol,3,1/8
+Fa,3,3/8
+sus,3,1/4
+sus,3,1/4
+Fa,3,1/8
+Fa,3,1/8
+Fa,3,1/4
+Fa,3,1/4
+Sol,3,1/4
+La,3,1/8
+Sol,3,3/8
+sus,3,1/4
+sus,3,1/4
+Mi,3,1/8
+Mi,3,1/8
+Mi,3,1/4
+Mi,3,1/4
+Fa,3,1/4
+Sol,3,1/8
+Fa,3,3/8
+Mi,3,1/4
+Sol,3,1
+sus,3,1
+Mi,3,1/4
+sus,3,1/4
+Sol,3,1/4
+sus,3,1/4
+Fa,3,1/4
+Sol,3,1/8
+Fa,3,3/8
+sus,3,1/4
+sus,3,1/4
+Fa,3,1/8
+Fa,3,1/8
+Fa,3,1/4
+Fa,3,1/4
+Sol,3,1/4
+La,3,1/8
+Sol,3,3/8
+sus,3,1/4
+sus,3,1/4
+Mi,3,1/8
+Mi,3,1/8
+Mi,3,1/4
+Mi,3,1/4
+Fa,3,1/4
+Sol,3,1/8
+Fa,3,3/8
+Red,3,1/4
+Mi,3,1
+sus,3,1
+Sol,3,1/4
+Sol,3,1/4
+Sol,3,1/4
+Sol,3,1/4
+Fa,3,1/4
+Mi,3,1/8
+Mi,3,3/8
+Si,3,1/4
+La,3,1/4
+Fa,3,1/8
+Fa,3,1/8
+Fa,3,1/4
+Fa,3,1/4
+Sol,3,1/4
+La,3,1/4
+Sol,3,1/4
+Fa,3,1/8
+Sol,3,1/8
+sus,3,1/4
+Mi,3,1/8
+Mi,3,1/8
+Mi,3,1/4
+Mi,3,1/4
+Fa,3,1/4
+Sol,3,1/8
+Fa,3,3/8
+Red,3,1/4
+Mi,3,1/4
+Fa,3,1/8
+Mi,3,3/8
+sus,3,1/4
+sus,3,1
+sus,3,1
+sus,3,1
+sus,3,1
+sus,3,1
+sus,3,1
+sus,3,1
+sus,3,1
+sus,3,1
+sus,3,1
+sus,3,1
+sus,3,1
