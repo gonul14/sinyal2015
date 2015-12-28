@@ -1,9 +1,18 @@
-function [xx,tt]=note(frekans,vurus)  %note fonksiyonu giriÅŸ olarak frekans ve vurus deÄŸerleri alÄ±r.
-Fs=8192; %Fs sabit deÄŸerim
-tt=0:1/Fs:((0.25-(1/Fs))/2);  %0'dan baÅŸlattÄ±m 1/Fs kadar arttÄ±rdÄ±m.0.25-1/Fs yaptÄ±m Ã§Ã¼nkÃ¼ 0. elemanÄ±da sayÄ±cak 1 deÄŸer dÃ¼ÅŸÃ¼rdÃ¼m ve 0,24  yaptÄ±m.2048 eleman oldu.Boyut eÅŸitlensin diye "(0,25-1/Fs)/2" ikiye bÃ¶ldÃ¼m.1024 elemana kadar artÄ±rdÄ±m.
-zz=0; %z'yi sÄ±fÄ±rladÄ±m.
-   xx=sin(2*pi*frekans*tt); %sinÃ¼s sinyalini tanÄ±mladÄ±m.
-if length(xx)==length(zz)    %z ve x 'in boyutu eÅŸitse
-       zz=[linspace(0,1.5,Fs*vurus*(2/8)),linspace(1.5,1,Fs*vurus*(1/8)),linspace(1,1,Fs*vurus*(4/8)),linspace(1,0,Fs*vurus*(1/8))]; %zz'yi dÃ¶ndÃ¼r.
-end
+function [xh,t]=note(frekans,olcu)  %girişinden frekans ve ölçü olarak argüman alan note fonksiyonunu tanımladı.
+Fs=8192; %örnekleme frekansını belirledim.
+t=0:1/Fs:olcu-1/Fs;  %0'dan başlattım 1/Fs kadar arttırdım.Ölçü değerinden 1/Fs çıkardım.
+                     %Eğer 1/fs ölçü değerinden çıkarılmazsa 1025 elemanlı
+                     %oluyor x,boyut hatası veriyor o yüzden 1/fs'yi çıkartınca 1024 elemanlı olur.
+                     
+x=sin(2*pi*frekans*t); %sinüs sinyalini tanımladım.
+zarf=[linspace(0,1.5,length(t)*(2/8)),linspace(1.5,1,length(t)*(1/8)),linspace(1,1,length(t)*(4/8)),linspace(1,0,length(t)*(1/8))]; 
+%0-1.5'e kadar length(t)*2/8 artımla ,diğer tüm aralıklar içinde aynı
+%işlemler linspace ile yaptım ve zarf'a koydum.
+xz=x.*zarf; %Her bir t için hesaplanan x ile zarftaki elemanlar çarpılır.xz'ye atadım.
+
+
+x2=0.8*sin(2*pi*frekans*t*2); %1.harmonik için sinüs sinyali oluşturdum.
+x3=0.4*sin(2*pi*frekans*t*3); %2.harmonik için sinüs sinyali oluşturdum.
+x4=0.1*sin(2*pi*frekans*t*4); %3.harmonik için sinüs sinyali oluşturdum.
+xh=x+x2+x3+x4;  %x sinyali ve 3 harmoniği topladım.Harmonik oluşturup toplama sebebimiz ise sesin gerçek sese yakın çıkmasıdır.
 end
