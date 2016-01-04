@@ -3,23 +3,27 @@
 Ders Adı  :Matlab
 Proje:Matlab ile Sentezleme
 
-HAFTA 2 
+
 
 ** "notalar.png":
 
-                          - dosyasında seçtiğim müziğin notalarının resmi bulunmaktadır.png türündedir.
+                          - dosyasında seçtiğim müziğin notalarının resmi bulunmaktadır.png türündeki dosyadır.
 
 ** "notalar.txt" :
 
-                         -txt türündedir.Dosyanın içinde seçtiğim müzik notalarının içindeki her ölçü için bulduğum notalar ve süreler(vuruş değerleri) bulunmaktadır.
+                         -txt türündedir.Dosyanın içinde seçtiğim müzik notalarının içindeki her ölçü için bulduğum notalar ,oktavlar ve süreler(vuruş değerleri) bulunmaktadır.
 
 ** "sentez.m" :
 
-                         - matlab türünde bir dosyadır.Henüz içeriği boş olan dosyadır.
+                         - matlab türünde bir dosyadır.İçinde txt dosyasından okuma yapılarak ;
+                              frek yardımıyla frekanslar hesaplandı,note ile sinüs sinyalleri oluşturuldu.
+                              Echo oluşturdum.Tepe değer yükseldiği için
+                              normalizasyon işlemi yaptım.sound ile müzik çalındı.
 
 ** "note.m"  :
 
-                       - matlab türünde dosyadır.İçinde note adında bir fonksiyon bulunan dosyadır.Benim verdiğim giriş değerlerine göre sinüs sinyali döndürecektir.
+                       - matlab türünde dosyadır.İçinde note adında bir fonksiyon bulunan dosyadır.Benim verdiğim giriş değerlerine göre sinüs sinyali döndürür.
+                          Sinyal zarfa koyuldu  aynı zamanada harmonikler eklendi.
 
 ** "note_cgr.m" :
 
@@ -37,34 +41,6 @@ HAFTA 2
 
                     -dosyası içinde bulunduğum dosyadır.Proje de yer alan her dosya ile ilgili açıklama yaptığım dosyanın adıdır.
 
-HAFTA 3
-
-**"note.m":
-
-           - matlab türünde   bulunan sinüs sinyalini zarflayarak yeni sinyal oluşturduk.
-           note fonksiyonunun giriş argümanları "note(frekans,vurus)" frekans ve vurus değerlerine göre döndürülecektir.
-
-
-**"frek.m":
-
-           -notalardaki eleman notasyonlarını düzenledim.(Do,Re,Mi,Fa,Sol,Dod,Sib..) gibi
-           fonksiyona "sus" verince nota olarak f=0 döndürmesini sağladım. 
-           fonksiyona oktav argümanı verilmemişse oktav=4'te  kabul etsin ve ona göre bana f değerlerini dödürmesini sağladım.
-
-**"notalar.txt":
-
-                -nota,oktav,ölçü şeklinde düzenledim. 
-
-HAFTA 4
-
-**"note.m":
-
-               -sinüs sinyalini gerçek sese çevirmek için notanın harmoniklerini de sinyale ekledim.3 adet harmonik ekledim.
-
-**"sentez.m":
-
-              -txt dosyasını satır satır okuyan program yazdım.Sonra split kullanarak virgüller yardımıyla ayırıldı ve yeni değişkenlere atadım.
-              Sonra bu değişkenler yardımıyla frek fonksiyonu kullanılarak frekans bulduk.note fonksiyonunu bir değişkene atayıp onun da sinüs sinyali dödürmesini sağladım.
-              notalar değişkeni tanımlayıp notaları note fonksiyonundaki sinüs sinyalini ve duraklama süresini ekleyip döndürmesini sağladım.
-              
+Not:frek_cgr.m ve note_cgr.m dosyaları benim frek.m ve note.m deki fonksiyonları çağırmak için oluşturduğum dosyalardır.
+       Oluşturmaya gerek yoktur aslında zaten sentez.m de çağırılıp işlemleri arka planda yapılmaktadır.Ben onları görmek için oluşturdum.
              
