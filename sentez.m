@@ -1,27 +1,40 @@
-Fs=8192;%örnekleme frekansý
-ds=Fs*1/100; %duraklama süresini oluþturdum.
-t=struct('line',{});
-dosya=fopen('notalar.txt');%notalar.txt dosyasýný açýcak.
-i=1; %satýr için i tanýmladým.100 tane satýr gelicek
+%%deðiþkenleri tanýmladým.
 
-satir=fgetl(dosya);
-
-while ischar(satir)
-t(i).line=satir;%t(i) ile line çarp ve satýr'a ata.
-satir=fgetl(dosya);
-i=i+1;%satýrý her seferinde bir arttýr.
+Fs=5700; %Örneklem frekansýný müzikten çýkan sese göre 5700 olarak tanýmladým.
+gecikme_suresi=round(Fs/10);  %gecikme süresini tanýmladým ve gecikme süresini round ile en yakýn tamsayýya yuvarladým.
+notalar=[];  %notalarýn bulunduðu deðiþken.
+duraklama=zeros(1,round(Fs/100)); % %duraklama suresi
+okt_degis=0;   %oktav'a eklenmek istenen deger okt_degis degiskeniyle eklenecek
+%%
+%%txt'den dosya okundu.
+dosya=fopen('notalar.txt','r'); %text dosyasýný acar,'r'ile okur.
+[nota,oktav,olcu]=textread('notalar.txt','%s%d%s','delimiter',','); %txt'de , ile ayrýlmýþ olan ifadeleri oku ve nota,oktav ve ölçü deðiþkenlerine ata.
+fclose(dosya); %txt dosyasýný kapat.
+frekans=zeros(1,length(nota)); %frekans'a 1'den baþlayýp txt'den çekilen nota uzunluðu kadar oluþtur ve frekansa ata.
+%%
+%%oktav deðiþtirmek için if oluþturup döngüye girdim.
+if okt_degis~=0 %oktdegis ana deðeri 0,eðer 0 deðilse if'e gir. 
+    for j=1:length(oktav) %j=1'den baþlasýn txt'den cekilen oktav uzunluðu kadar döngü devam etsin.
+        oktav(j)=oktav(j)+okt_degis; %j. oktava oktdegis deðerini eklesin.
+    end
 end
-fclose(dosya);%dosyayý kapat.
-
-for i=1:length(t)
-disp(t(i).line);%disp ile t(i).line çýkýþýný verir yani yazdýrýr.
-
+%%
+%%txt'den okunan nota oktav ve ölçü deðerleri ile frekten
+%%frekanslar,note'den sinüs sinyalleri hesaplandý.notalara eklendi.
+for i=1:length(nota) %txt'den çekilen nota kadar döngü devam etsin.
+    frekans(i)=frek(nota{i},oktav(i)); %frek fonsiyonu caðýrýlarak frekans deðerleri hesaplandý. 
+    [sindalga,t]=note(frekans(i),str2num(olcu{i})); %note fonksiyonu ile her bir frekans ve ölçü için sinüs sinyalleri oluþturuldu.
+    notalar=[notalar sindalga duraklama]; %notalar sindalga ve duraklama her seferinde ard ard eklenerek notalara atandý.
+end  
+%%
+%%echo için for oluþturuldu.
+for i=1:length(notalar) %notalar kadar döngü devam etsin.(echo için)
+    if (i+gecikme_suresi)<length(notalar)
+        notalar(i+gecikme_suresi)=notalar(i+gecikme_suresi)+0.3*notalar(i); 
+    end
 end
-satir='nota,oktav,olcu'; %satýr tanýmladým ona nota oktav ve ölçü(süre) 3 tane deðer string verdim.
-c=strsplit(satir,','); %virgül'den sonra ayýrdým.her bir stringi 
-nota=c(1); %nota deðiþkenine ilk stringi atadým.
-oktav=c(2); %oktav deðiþkenine ikinci stringi atadým.
-olcu=c(3); %ölçü(süre) deðiþkenine üçüncü stringi atadým.
-frekans=frek(nota,oktav);%frekansý frek fonksiyonundan okuduðum nota ve oktav deðeriyle döndürdüm.
-a=note(frekans,olcu); %note fonksiyonunun ürettiði sinüs sinyalini a deðiþkenine atadým.
-notalar=[notalar a ds];%notalar adýnda deðiþken oluþturdum notalarý sinüs sinyalini ve duraklama süresini ekledim her bir nota için bunu yapýcak.
+
+%%normalizasyon yapýldý.
+notalar = notalar/max(abs(notalar));%normalize etmek için (tepe deðerini 1'e düþürmek için) notalarýn max aldým.
+plot(notalar) %notalar çizildi.
+sound(notalar,Fs); %sound ile müziði çaldýrdým.
