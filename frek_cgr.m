@@ -1,1 +1,1 @@
-ff=frek('Fa') %oktav argümaný girilmeden çaðýrdým.4.oktavdaki fa notasýnýn frekansýný dödürmesini beklerim.
+ff=frek('Do') %oktav argümaný girilmeden çaðýrdým.4.oktavdaki Do notasýnýn frekansýný döndürmesi gerekir.
